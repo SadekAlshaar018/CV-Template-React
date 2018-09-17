@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../../App.css';
+import Pro from '../progress/pro';
+
 
 export default class Cont extends React.Component {
   render(){
@@ -39,13 +41,11 @@ export default class Cont extends React.Component {
          <h3>
          Vrijwilliger als ICT medewerker in <a href="">Lets Ruilen Winkel</a> Schiedam
          </h3>
-         <p>
            <ul>
             <h5>Reparatie alle computers</h5>
             <ol>Onderhoud alle software problemen</ol>
             <ol>In de gaten houden welke computer of laptop niet werkend zijn</ol>
            </ul>
-         </p>
        </div>
        <div className="time">
          <h4>2015 - 2016</h4>
@@ -54,12 +54,10 @@ export default class Cont extends React.Component {
      <li>
        <div className="content">
          <h3>Verpleger in het ziekenhuis</h3>
-         <p>
           <ul>
             <ol>Zieke mensen verzorgen</ol>
             <ol>De juiste medicijnen toe dienen</ol>
           </ul>
-         </p>
        </div>
        <div className="time">
          <h4>2014 – 2015</h4>
@@ -68,13 +66,11 @@ export default class Cont extends React.Component {
      <li>
        <div className="content">
          <h3>ICT beheerder</h3>
-         <p>
           <h5>Onderhoud de computers en klanten en adviseren</h5>
             <ul>
               <ol>Klanten informeren en adviseren</ol>
               <ol>Onderhoud alle software problemen</ol>
             </ul>
-         </p>
        </div>
        <div className="time">
          <h4>2008 - 2014</h4>
@@ -83,7 +79,6 @@ export default class Cont extends React.Component {
      <li>
        <div className="content">
          <h3>Elektromonteur</h3>
-         <p>
           <h5>
             Afdeling storing en onderhoud Midden
           </h5>
@@ -95,7 +90,6 @@ export default class Cont extends React.Component {
               Ik werkte in afdeling storing en onderhoud Midden Binnen kleine bedrijf
             </ol>
           </ul>
-         </p>
        </div>
        <div className="time">
          <h4>2005 - 2008</h4>
@@ -104,7 +98,6 @@ export default class Cont extends React.Component {
      <li>
        <div className="content">
          <h3>Opleidingen</h3>
-         <p>
           <ul>
             <ol>
             <span><strong>2017 – 2018</strong></span><br />
@@ -126,13 +119,11 @@ export default class Cont extends React.Component {
               <span><strong>1994 - 2000</strong></span><br />
             Basis school Tarshieha Damascus(Diploma)</ol>
           </ul>
-         </p>
        </div>
      </li>
      <li>
        <div className="content">
          <h3>Vaardigheden</h3>
-         <p>
           <ul>
             <ol>
             <strong>Computer</strong><br/>
@@ -147,7 +138,6 @@ export default class Cont extends React.Component {
             Op aanvraag direct verkrijgbaar
             </ol>
           </ul>
-         </p>
        </div>
      </li>
    </ul>

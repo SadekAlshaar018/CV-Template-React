@@ -5,7 +5,9 @@ import Nav from './component/header/navbar';
 import Cont from './component/content/content';
 import Footer from './component/footer/footer';
 import Cover from './component/cover/cover';
+import Pro from './component/progress/pro';
 
+import $ from 'jquery'; 
 class App extends Component {
   render() {
     return (
@@ -21,7 +23,8 @@ class App extends Component {
             </div>
           </header>
           <Cover />
-            <Cont />
+          <Cont />
+          <Pro />
           <div className="footer">
             <Footer />
           </div>
