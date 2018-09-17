@@ -5,7 +5,9 @@ import '../../App.css';
 export default class Footer extends React.Component {
   render(){
     return(
-      <p>hello from footer</p>
+      <div id="contact">
+        <p>hello from footer</p>
+      </div>
     );
   }
 }
