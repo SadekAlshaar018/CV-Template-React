@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import '../../App.css';
-import Pro from '../progress/pro';
 import '../../js/fadeIn';
-import $ from 'jquery';
 
 
 export default class Cont extends React.Component {

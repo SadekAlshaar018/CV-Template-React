@@ -7,7 +7,7 @@ import Footer from './component/footer/footer';
 import Cover from './component/cover/cover';
 import Pro from './component/progress/pro';
 
-import $ from 'jquery'; 
+
 class App extends Component {
   render() {
     return (

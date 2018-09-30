@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import '../../App.css';
 import * as pro from '../../js/pro';
-import $ from 'jquery';
 
 export default class Pro extends React.Component {
   render() {
