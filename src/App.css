@@ -266,6 +266,7 @@ h1{
 .timeline ul li p{
   margin:10px 0 0;
   padding:0;
+  color: #000;
 }
 .timeline ul li .time h4{
   margin:0;
@@ -338,6 +339,15 @@ h1{
 }
 .both{
   clear:both;
+}
+/* fadeIn */
+#ict,
+#ziek,
+#beheerder,
+#monteur,
+#opleid,
+#vaar{
+  opacity: 0;
 }/* CSS footer */
 
 /* progress bar  */

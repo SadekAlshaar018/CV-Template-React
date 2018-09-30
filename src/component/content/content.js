@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../../App.css';
 import Pro from '../progress/pro';
+import '../../js/fadeIn';
+import $ from 'jquery';
 
 
 export default class Cont extends React.Component {
@@ -9,7 +11,7 @@ export default class Cont extends React.Component {
     return(
  <div className="timeline" id="story">
    <ul>
-     <li className="fade">
+     <li className="fade" id="develop">
        <div className="content">
          <h3>Front end developer bij <a href="#" target="__blank">Ask Phil </a>Amsterdam
             Develop Web Shop door Shopify platform</h3>
@@ -36,7 +38,7 @@ export default class Cont extends React.Component {
          <h4> 2018 - heden</h4>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade1" id="ict">
        <div className="content">
          <h3>
          Vrijwilliger als ICT medewerker in <a href="">Lets Ruilen Winkel</a> Schiedam
@@ -51,7 +53,7 @@ export default class Cont extends React.Component {
          <h4>2015 - 2016</h4>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade" id="ziek">
        <div className="content">
          <h3>Verpleger in het ziekenhuis</h3>
           <ul>
@@ -63,7 +65,7 @@ export default class Cont extends React.Component {
          <h4>2014 – 2015</h4>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade" id="beheerder">
        <div className="content">
          <h3>ICT beheerder</h3>
           <h5>Onderhoud de computers en klanten en adviseren</h5>
@@ -76,7 +78,7 @@ export default class Cont extends React.Component {
          <h4>2008 - 2014</h4>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade" id="monteur">
        <div className="content">
          <h3>Elektromonteur</h3>
           <h5>
@@ -95,7 +97,7 @@ export default class Cont extends React.Component {
          <h4>2005 - 2008</h4>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade" id="opleid">
        <div className="content">
          <h3>Opleidingen</h3>
           <ul>
@@ -121,7 +123,7 @@ export default class Cont extends React.Component {
           </ul>
        </div>
      </li>
-     <li className="fade">
+     <li className="fade" id="vaar">
        <div className="content">
          <h3>Vaardigheden</h3>
           <ul>
