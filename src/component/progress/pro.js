@@ -5,7 +5,7 @@ import * as pro from '../../js/pro';
 export default class Pro extends React.Component {
   render() {
     const style = {
-      background: '#1e76d0'
+      background: 'lightgreen'
     }
     const float = {
       float: 'right'

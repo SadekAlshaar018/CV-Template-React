@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Nav from './component/header/navbar';
 import Cont from './component/content/content';
@@ -18,7 +17,7 @@ class App extends Component {
                 <Nav />
               </div>
               <div className="App__logo">
-                <img src={logo} className="App-logo" alt="logo" />
+                <h2 className="App__logo--text">Shaar Designer</h2>
               </div>
             </div>
           </header>
