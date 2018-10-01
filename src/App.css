@@ -229,11 +229,15 @@ h1{
   float:left;
   text-align:right;
   clear:both;
+  border: 3px solid lightgreen;
+  border-right: none;
 }
 .timeline ul li:nth-child(even){
   float:right;
   text-align:left;
   clear:both;
+  border: 3px solid lightgreen;
+  border-left: none;
 }
 .content{
   padding-bottom:20px;
