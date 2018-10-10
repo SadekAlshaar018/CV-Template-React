@@ -24,7 +24,7 @@ a{
   align-items: center;
 }
 .App__logo--text:hover{
-  color: #90ee90;
+  color: #0b6d0b;
 }
 .header{
   height: 510px;
@@ -84,7 +84,7 @@ header{
   justify-content: center;
 }
 .link:hover{
-  background-color: #90ee90;
+  background-color: #0b6d0b;
   color: #eee;
 }
 
@@ -210,7 +210,7 @@ h1{
   left:50%;
   width:2px;
   height:100%;
-  background:#90ee90;
+  background:#0b6d0b;
   box-shadow: 1px 1px 1px 0px #045704e0;
   height: 94.6%; */
 }
@@ -229,14 +229,14 @@ h1{
   float:left;
   text-align:right;
   clear:both;
-  border: 3px solid #90ee90;
+  border: 3px solid #0b6d0b;
   border-right: none;
 }
 .timeline ul li:nth-child(even){
   float:right;
   text-align:left;
   clear:both;
-  border: 3px solid #90ee90;
+  border: 3px solid #0b6d0b;
   border-left: none;
 }
 .content{
@@ -272,7 +272,7 @@ h1{
 .timeline ul li h3{
   padding:0;
   margin:0;
-  color:#90ee90;
+  color:#0b6d0b;
   font-weight:600;
 }
 .timeline ul li p{
@@ -291,7 +291,7 @@ h1{
   right:-165px;
   margin:0;
   padding:8px 16px;
-  background:#90ee90;
+  background:#0b6d0b;
   color:#fff;
   border-radius:18px;
   box-shadow:1px 1px 1px 0px #045704e0;
@@ -303,7 +303,7 @@ h1{
   left:-165px;
   margin:0;
   padding:8px 16px;
-  background:#90ee90;
+  background:#0b6d0b;
   color:#fff;
   border-radius:18px;
   box-shadow:1px 1px 1px 0px #045704e0;
