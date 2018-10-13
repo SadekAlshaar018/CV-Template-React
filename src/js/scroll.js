@@ -53,7 +53,7 @@ $(window).scroll(function (){
       $(".timeline ul li:nth-child(5)").removeClass("odd");
       console.log(scroll);
     }
-    if (scroll > 3000 ){
+    if (scroll > 2600 ){
       $(".timeline ul li:nth-child(7)").addClass("odd");
       console.log(scroll);
     }
